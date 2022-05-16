@@ -1,0 +1,28 @@
+Estudos
+=================================================================================================================================================
+ORM (Object Relational Mapper ou Mapeamento Objeto-Relacional)
+
+O que é? 
+	ORM (Object Relational Mapper) é uma técnica de mapeamento objeto-relacional que permite fazer uma relação dos objetos com os dados que os mesmos representam. Ultimamente 
+tem sido muito utilizada e vem crescendo bastante nos últimos anos.
+	Este crescimento tem se dado principalmente pelo fato de muitos desenvolvedores não se sentirem a vontade em escrever código SQL e pela produtividade que esta técnica
+nos proporciona. Existem ótimos ORM´s como Hibernate, NHibernate, Entity Framework e etc
+
+Mundo Relacional vs Mundo Orientado a Objeto:
+	No mundo relacional prevalecem princípios matemáticos com a finalidade de armazenar e gerenciar corretamente os dados, de forma segura e se trabalha com a linguagem SQL que
+é utilizada para dizer o banco de dados “O QUE?” fazer e não como fazer.
+	Já no mundo orientado a objetos trabalhamos com classes e métodos, ou seja, trabalhamos fundamentados na engenharia de software e seus princípios que nos dizem “COMO” fazer.
+O ORM é justamente, a ponte entre estes dois mundos, ou seja, é ele quem vai permitir que você armazene os seus objetos no banco de dados.
+	Para isto precisamos fazer um mapeamento dos seus objetos para as tabelas do banco de dados.
+
+Para que serve?
+	Ele faz o mapeamento da sua classe para o banco de dados e cada ORM tem suas particularidades para gerar o SQL referente a inserção do objeto que corresponde a uma tabela no banco de dados\
+e realizar a operação. Utilizando um ORM, também se ganha produtividade, pois deixa-se de escrever os comando SQL para deixar que o próprio ORM, faça isto por você.
+
+Onde utilizar?
+	Na execução do mapeamento entre o mundo relacional e o mundo orientado objeto, para realizar a persistência de dados de um projeto Java.
+
+Como utilizar?
+	A forma como este mapeamento é configurado depende da ferramenta que estamos a usar. Como exemplo, o programador que use Hibernate na linguagem Java pode usar arquivos XML ou o 
+sistema de anotações que a linguagem providencia. Em outros casos o mapeamento é feito diretamente no código, através de herança de classes especiais como é o caso do ORM do Django
+e do SqlAlchemy na linguagem Python. Algumas ferramentas gráficas podem ser usadas para gerar o código que representa o modelo do banco, como o ORM Pony também da linguagem Python.
